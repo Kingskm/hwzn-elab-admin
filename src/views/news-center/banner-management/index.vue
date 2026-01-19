@@ -18,7 +18,7 @@
 
       <el-table-column
         prop="cover"
-        label="封面"
+        label="图片"
         align="center"
         width="120">
         <template slot-scope="scope">

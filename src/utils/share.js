@@ -63,12 +63,12 @@ export const applicationTypeOptions = [
 
 export const applicationResultEnum = {
   1:"通过",
-  0:"驳回",
+  0:"不通过",
 }
 
 export const applicationResultOptions = [
   { value:1, label:"通过" },
-  { value:0, label:"驳回" },
+  { value:0, label:"不通过" },
 ]
 
 export const questionTypeEnum = {

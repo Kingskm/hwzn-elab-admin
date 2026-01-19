@@ -94,7 +94,7 @@
           </el-option>
         </el-select>
 			</el-form-item> -->
-      <el-form-item label="时间">
+      <el-form-item label="实验时间">
         <el-date-picker
           v-model="timeRange"
           type="datetimerange"

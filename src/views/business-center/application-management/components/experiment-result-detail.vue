@@ -60,7 +60,7 @@
           <el-form-item label="得分" v-if="dataInfo.checkResult===1">
             <span :style="`color:${dataInfo.checkReason<60?'#FF0000':'#00cc00'}`">{{dataInfo.checkReason}}</span>
           </el-form-item>
-          <el-form-item label="驳回理由" v-else>
+          <el-form-item label="不通过理由" v-else>
             <span>{{dataInfo.checkReason}}</span>
           </el-form-item>
         </el-col>
